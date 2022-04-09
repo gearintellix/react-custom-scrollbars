@@ -529,6 +529,8 @@ export default class Scrollbars extends Component {
             // Hide scrollbars by setting a negative margin
             marginRight: scrollbarWidth ? -scrollbarWidth : 0,
             marginBottom: scrollbarWidth ? -scrollbarWidth : 0,
+            paddingRight: scrollbarWidth ? -scrollbarWidth : 0,
+            paddingBottom: scrollbarWidth ? -scrollbarWidth : 0,
             ...(autoHeight && {
                 ...viewStyleAutoHeight,
                 // Add scrollbarWidth to autoHeight in order to compensate negative margins
